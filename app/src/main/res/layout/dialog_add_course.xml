@@ -1,0 +1,65 @@
+<!-- res/layout/dialog_add_course.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:elevation="8dp">
+
+    <EditText
+        android:id="@+id/editTextCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Code"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColorHint="#333333"
+        android:backgroundTint="@color/editTextBackground" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColorHint="#333333"
+        android:backgroundTint="@color/editTextBackground" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <EditText
+        android:id="@+id/editTextLecturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lecturer Name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColorHint="#333333"
+        android:backgroundTint="@color/editTextBackground" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp" />
+
+    <!-- Button to pick an image -->
+    <Button
+        android:id="@+id/btnPickImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick Image" />
+
+    <!-- ImageView to display the selected image -->
+    <ImageView
+        android:id="@+id/editImageCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+</LinearLayout>
